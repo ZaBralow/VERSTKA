@@ -1,0 +1,190 @@
+.form {
+    width: 100%;
+    height: 36px;
+    border-radius: 2px;
+}
+
+.otstyp {
+    padding-top: 1vw;
+}
+
+.g-recaptcha {
+    padding-top: 1vw;
+    padding-left: 18%;
+}
+
+#iknopka {
+    margin-left: 23%;
+    margin-top: 2vw;
+}
+
+.small {
+    text-align: center;
+    font-size: 10px;
+    color: rgb(168, 168, 168);
+}
+
+#main-up {}
+
+.bgc {
+    width: 100%;
+    background-color: #DDDDDD;
+}
+
+.moicontainer {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.partnumber {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    color: white;
+}
+
+.inputs {
+    display: inline-block;
+    padding-left: 5vw;
+    padding-top: 1.2vw;
+}
+
+.input12 {
+    display: inline-block;
+    height: 50px;
+    width: 350px;
+}
+
+.button12 {
+    display: inline-block;
+    height: 50px;
+    margin-left: 2vw;
+    width: 100px;
+    background-color: red;
+    border-color: red;
+}
+
+.golovok {
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.container {
+    margin-top: 3vw;
+}
+
+.icons img {
+    background: linear-gradient(to top, #0484c9, #01457e);
+}
+
+.icons {
+    padding-top: 26px;
+}
+
+.container span {
+    padding-left: 1vw;
+    font-size: 20px;
+}
+
+.iconswithtxt {
+    padding-top: 26px;
+    font-size: 27px;
+}
+
+.iconswithtxt span {
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.imgas {
+    background: url("../omg/phone.jpg") no-repeat;
+    margin-top: 23px;
+}
+
+.fon {
+    background: url("../omg/fone.png");
+    width: 371px;
+    height: 223px;
+    margin-left: -16px;
+    margin-top: 218px;
+}
+
+.fon h3 {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+    font-weight: normal;
+}
+
+.fon p {
+    text-align: center;
+    padding-top: 15px;
+    opacity: 0.7;
+}
+
+#opwindow {
+    margin-left: 93px;
+    margin-top: 15px;
+    background-color: #0083CA;
+}
+
+#opwindow img {
+    padding-left: 10px;
+    /* background-color: #004B88; */
+}
+
+@media screen and (min-width: 1140px) {
+    .moicontainer {
+        max-width: 1260px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .imgas {
+        background: url("../omg/phone.jpg") no-repeat;
+        margin-top: 23px;
+        margin-left: 10vw;
+    }
+    .adaptive {
+        margin-left: 8vw;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .partnumber {
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        color: white;
+    }
+    .inputs {
+        display: inline-block;
+        padding-left: 5vw;
+        padding-top: 3.2vw;
+    }
+}
+
+@media screen and (max-width: 1056px) {
+    .partnumber {
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        color: white;
+        text-align: center;
+        margin-left: 23vw;
+    }
+    .inputs {
+        display: inline-block;
+        padding-left: 25vw;
+        padding-right: 20vw;
+        padding-bottom: 3.2vw;
+    }
+}
+
+@media screen and (max-width: 1235px) {
+    .inputs {
+        display: inline-block;
+        padding-top: 3.2vw;
+    }
+}

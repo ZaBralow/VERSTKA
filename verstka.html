@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Верстка</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+  <link rel="shortcut icon" href="/omg/favicon.ico" type="image/png">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<div class="bgc">
+  <div class="moicontainer" id="main-up" style="margin-top: 0;">
+    <div class="row content-wrap">
+      <div class="col-xs-12 col-lg-6 col-md-6 partnumber">
+        <h1 style="font-weight: normal;">Ищите конкретный партномер?</h1>
+      </div>
+      <div class="inputs">
+        <input class="input12" type="text"  placeholder="Введите партномер или описание товара">
+        <button class="button12">Искать<img src="omg/button.png" alt="" style="padding-left: 10px"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="golovok">
+  <h1 style="font-weight: normal;">Удобные инструменты - правильный выбор!</h1>
+</div>
+
+<div class="container">
+  <div class="row content-wrap">
+    <div class="adaptive col-xl-8 col-lg-7 col-md-6 col-sm-12 col-xs-12">
+      <div class="icons"><img src="omg/icon1.png" alt=""><span>Конфигуратор серверов</span></div>
+      <div class="icons"><img src="omg/icon2.png" alt=""><span>Конфигуратор сетевого оборудования</span></div>
+      <div class="iconswithtxt"><span>Хотите проще?</span> Мы поможем!</div>
+      <div class="icons"><img src="omg/icon3.png" alt=""><span>Быстро подобрать сервер</span></div>
+      <div class="icons"><img src="omg/icon4.png" alt=""><span>Выбрать СХД</span></div>
+      <div class="icons"><img src="omg/icon5.png" alt=""><span>Взять оборудования в демо</span></div>
+    </div>
+    <div class="imgas col-xl-4 col-lg-5 col-md-6 col-sm-12 col-xs-12">
+      <div class="fon">
+       <h3>Или просто отправьте нам запрос</h3>
+       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" id="opwindow">
+          Отправить запрос
+          <img src="omg/button.png" alt="">
+        </button>
+        <p>Менеджер свяжется за 15 минут</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle" style="margin-left: 30%;">Обратный звонок</h5>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin: 0 0 0;">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h6 class="text-center">Если покаким-то причинам вы не смогли дозвониться нам, оставьте свои контактные данные и
+          наши специалисты свяжутся с вами в ближайшее время.</h6>
+        <p class="otstyp">Имя *</p>
+        <input type="text" class="form">
+        <p class="otstyp">Телефон *</p>
+        <input type="text" class="form">
+        <div class="g-recaptcha" data-sitekey="6LfKU50UAAAAAE6k9VvyXYgJyh8ene7DPmAgCcdi">
+        </div>
+        <button type="button" class="btn btn-primary" id="iknopka"> ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК </button>
+        <p style="text-align: center; padding-top: 0.5vw;"><input type="checkbox" style="height: 17px; width: 17px;"> Я
+          согласен на обработку <a href="#">личных данных</a></p>
+        <p class="small">* - поля, обязательные для заполнения</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
+</script>
+<script src="js/vue.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
